@@ -14,7 +14,8 @@
 1. Python 3.10 이상 설치
 2. 필수 라이브러리 설치:
 
-```bash pip install -U git+https://github.com/m-bain/whisperx.git```
+```bash
+pip install -U git+https://github.com/m-bain/whisperx.git
 
 3. ffmpeg 설치 후 환경변수 등록 (윈도우의 경우 bin 폴더 경로를 PATH에 추가)
 4. Hugging Face access token 발급 및 조건 수락:
