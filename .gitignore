@@ -1,0 +1,35 @@
+# Ignore audio files
+*.m4a
+*.mp3
+*.wav
+
+# Ignore WhisperX cache
+.cache/
+__pycache__/
+
+# Ignore Python virtual environments
+venv/
+.env/
+
+# Ignore output files
+/output/*.txt
+/output/*.srt
+/output/*.tsv
+/output/*.vtt
+/output/*.json
+/output/*.aud
+
+# Ignore model checkpoints and large files
+*.pt
+*.bin
+*.pth
+
+# Ignore Jupyter notebooks if not used
+*.ipynb
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore VSCode settings
+.vscode/
